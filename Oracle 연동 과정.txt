@@ -1,0 +1,14 @@
+1. oracle 설치 및 비밀번호 설정
+
+2. 시스템 환경 변수 편집에 들어가서 새로만들기 
+ORACLE_HOME - C:\app\user\product\21c\dbhomeXE
+
+TNS_ADMIN - C:\app\user\product\21c\homes\OraDB21Home2\network\admin\tnsnames.ora
+
+3. 윈도우키 + R 실행창에 services.msc 쓰고 들어간 뒤, Oracle 서비스 3개 다시 시작
+
+4. Eclipse EE 실행 후 ojdbc11.jar 파일을 본인이 만든 다이나믹 웹 프로젝트 안에 있는 lib 폴더 안에 이동
+
+5. SQLPLUS 실행 후 비밀번호 치고 들어간 뒤, 테이블 생성 
+
+6. Eclipse EE 실행 후 Tomcat서버 start 후, Run as 하면 완료.
